@@ -1,6 +1,6 @@
 Feature: feature to test the google search functionality
 
-  Scenario: validate google search is working
+  Scenario Outline: validate google search is working
     Given browser is open
     And user is on user google search page
     When user enters a text in search box

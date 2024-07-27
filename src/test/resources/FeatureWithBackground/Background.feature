@@ -6,10 +6,10 @@ Feature: Check Home Page Functionality
     Then clicks on login button
     And user is navigated to homepage
 
-  Scenario: Check logout link
+  Scenario Outline: Check logout link
     When user clicks on welcome page
     Then logout link is displayed
 
-  Scenario: Verify quick launch toollbar is present
+  Scenario Outline: Verify quick launch toollbar is present
     When user clicks on dashboard page
     Then quick launch toollbar is displayed

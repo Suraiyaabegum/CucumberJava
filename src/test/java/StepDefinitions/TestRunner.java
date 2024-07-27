@@ -5,7 +5,7 @@ import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/Features", //path where our feature files are kept
+@CucumberOptions(features="src/test/resources/Features/GoogleSearch.feature", //path where our feature files are kept
 glue= {"StepDefinitions"},
 monochrome=true,
 plugin = {"pretty","html:target/HTMLReports"

@@ -22,7 +22,7 @@ public class GoogleSearchSteps {
 	public void browser_is_open() {
 		System.out.println("browser is open");
 		WebDriverManager.chromedriver().setup();  
-		driver= new ChromeDriver(); 
+		driver= new ChromeDriver(); //user enters a text in search box
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();   
